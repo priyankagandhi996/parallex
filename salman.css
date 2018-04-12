@@ -1,0 +1,97 @@
+body,html{
+  height: 100%;
+  line-height: 1.6em;
+}
+
+
+h1{
+  text-align: center;
+  padding: 5px;
+  color: black;
+  border: 2px dotted green;
+  font-family: sans-serif;
+}
+
+.div1{
+font-size: 30px;
+font-style: italic;
+font-weight: 400px;
+font-family: serif;
+background-color: #FFC0CB;
+margin-right: 15px;
+padding: 15px;
+}
+
+
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin-right: 40px;
+
+}
+
+a{
+  display: block;
+  background-color: green;
+  color: black;
+  padding: 20px;
+font-size: 20px;
+  text-align: center;
+}
+a:hover{
+  color: white;
+  background-color: black;
+}
+
+.a3{
+  background-image: url("image3.jpg");
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.a1{
+  margin-top:  30px;
+  background-image: url("image1.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-family: serif;
+  color: pink;
+}
+.a1_sub{
+  position: absolute;
+  text-align: center;
+  top: 300px;
+}
+
+.a1,.a2{
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.a2{
+  background-image: url("image2.jpg");
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  color: blue;
+}
+
+section{
+font-size: 20px;
+text-align: center;
+font-weight: 400;
+padding: 50px;
+background-color: grey;
+color: white;
+}
+.a3_sub{
+  color: pink;
+  text-align: center;
+  padding-top: 300px;
+  position: absolute;
+}
